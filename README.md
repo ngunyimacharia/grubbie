@@ -53,5 +53,6 @@ Only files related to the folder scope should be placed within the relevant fold
 Templating will be done using php include() function. To include a HTML page into another HTML page, simply add the following to your page:
 
     <?php include('../includes/header.php'); ?>
+
 The above will include the file in the path to the page.
-   That simple :-)
+That simple :-)
