@@ -23,15 +23,25 @@ PHP (Templating)
 
 #### Folder structure
 ||=====================
+
 ||- assets
+
 ---css : *Compiled css output*
+
 ---images :  Images storage
+
 --- js: *Javascript files*
+
 ---scss: *SASS Files*
+
 ||- includes: *HTML to be included in other pages*
+
 ||- inventory: Pages related to inventory management
+
 ||-orders: Pages related to orders
+
 ||-rating: Pages related to rating
+
 ||-user: Pages related to the user
 
 #### General file naming rules
