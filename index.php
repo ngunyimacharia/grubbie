@@ -1,5 +1,6 @@
 <?php include('includes/header.php'); ?>
-
+ <div id="grubbie-gradient"></div>
+ 
 <h1>Grubbie development Guide</h1>
 Welcome!
 <div class="documentation">
