@@ -1,0 +1,129 @@
+@media only screen and (min-width: 768px) {
+  header{
+
+    max-height: 12vh;
+    width: 100%;
+
+    div#logo{
+      display: inline-block;
+      margin: 15px;
+      img{
+        width: 40px;
+        float: left;
+      }
+
+      div#logo-caption{
+        display: inline-block;
+        font-size: 2em;
+        float: left;
+        margin: 1vh 0 0 1vh;
+        color: $outrageous_orange;
+        span{
+          color:$school_bus_yellow;
+        }
+      }
+    }
+
+    nav{
+
+      display: inline;
+
+      ul{
+        padding: 0;
+        margin: 10px  10px auto auto;
+        float: right;
+        display: block;
+
+        li{
+          display:inline-block;
+          text-align:center;
+          margin:5px 20px;
+          width: 60px;
+          a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.9em;
+
+            img{
+              display:block;
+              width: 30px;
+              height: 30px;
+              margin: 0 auto 5px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+  footer nav{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  header{
+    display: none;
+  }
+
+  #content-container{
+    clear:both;
+    height: 86.7vh;
+    overflow-y: scroll;
+  }
+
+  footer{
+
+    height: 10.8vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    nav{
+
+      ul{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        li{
+          display:inline-block;
+          text-align:center;
+          a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.8em;
+            img{
+              display:block;
+              margin: 0 auto 5px;
+            }
+          }
+        }
+      }
+
+    }
+
+    nav.user ul li{
+      width: 23%;
+
+      img{
+        height: 30px;
+      }
+    }
+
+    nav.admin ul li{
+      margin-top: 2vh;
+      width: 18%;
+      img{
+        height: 20px;
+      }
+    }
+  }
+
+
+}
