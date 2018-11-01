@@ -3,6 +3,8 @@
 
     max-height: 12vh;
     width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
+    padding-bottom: 5px;
 
     div#logo{
       display: inline-block;
@@ -75,6 +77,7 @@
     clear:both;
     height: 86.7vh;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   footer{
@@ -84,6 +87,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
 
     nav{
 
