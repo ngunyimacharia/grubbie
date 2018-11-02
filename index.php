@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
  <div id="grubbie-gradient"></div>
- 
+
 <h1>Grubbie development Guide</h1>
 Welcome!
 <div class="documentation">
@@ -51,6 +51,9 @@ Welcome!
     </p>
 
 </div>
+<br/>
+<hr/>
+<h1>And now, lorem ipsum!</h1>
 
 <div id="Translation">
   <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
