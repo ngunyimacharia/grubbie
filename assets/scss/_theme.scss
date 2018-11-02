@@ -60,7 +60,7 @@ body{
   #grubbie-gradient{
     @extend %overlay-props;
     background-image: $grubbie_gradient;
-    z-index: -11000; /* Specify a stack order in case you're using a different order for other elements */
+    z-index: -9000; /* Specify a stack order in case you're using a different order for other elements */
   }
 
 }
