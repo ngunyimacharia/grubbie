@@ -4,7 +4,7 @@
       <a href="http://localhost/grubbie/user/view.php">
         <img
         src="http://localhost/grubbie/assets/images/profile_icon.png"
-        title="Profile Icon"
+        title="Profile"
         alt="Profile icon" />
         Profile
       </a>
@@ -13,7 +13,7 @@
       <a href="http://localhost/grubbie/rating/rate.php">
         <img
         src="http://localhost/grubbie/assets/images/rate_icon.png"
-        title="Rate Icon"
+        title="Rate"
         alt="Rate icon" />
         Rate
       </a>
@@ -22,7 +22,7 @@
       <a href="http://localhost/grubbie/orders/view.php">
         <img
         src="http://localhost/grubbie/assets/images/meal_icon.png"
-        title="Meal Icon"
+        title="Meals"
         alt="Meal icon" />
         Meals
       </a>
@@ -31,7 +31,7 @@
       <a href="http://localhost/grubbie/orders/view.php">
         <img
         src="http://localhost/grubbie/assets/images/notifications_icon.png"
-        title="Notifications Icon"
+        title="Messages"
         alt="Notifications icon" />
         Messages
       </a>

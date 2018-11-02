@@ -40,11 +40,12 @@
           display:inline-block;
           text-align:center;
           margin:5px 20px;
-          width: 60px;
+          width: 30px;
+          position: relative;
           a{
             text-decoration: none;
             color: white;
-            font-size: 0.9em;
+            font-size: 0em;
 
             img{
               display:block;
@@ -75,14 +76,14 @@
 
   #content-container{
     clear:both;
-    height: 86.7vh;
+    height: 86.7%;
     overflow-y: scroll;
     overflow-x: hidden;
   }
 
   footer{
 
-    height: 10.8vh;
+    height: 10.8%;
     width: 100%;
     position: fixed;
     bottom: 0;
