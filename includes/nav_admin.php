@@ -1,51 +1,36 @@
 <nav class="admin">
   <ul>
     <li>
-      <a href="http://localhost/grubbie/user/view.php">
-        <img
-        src="http://localhost/grubbie/assets/images/group_icon_inv.png"
-        title="Users"
-        alt="Group icon" />
-        Users
+      <a href="http://localhost/grubbie/user/manage.php">
+        <i class="far fa-user" title="Users"></i>
+        <span>Users</span>
       </a>
     </li>
     <li>
       <a href="http://localhost/grubbie/rating/rate.php">
-        <img
-        src="http://localhost/grubbie/assets/images/food_icon_inv.png"
-        title="Meals"
-        alt="Food icon" />
-        Meals
+        <i class="fas fa-utensils" title="Meals"></i>
+        <span>Meals</span>
       </a>
     </li>
     <li>
       <a href="http://localhost/grubbie/orders/view.php">
-        <img
-        src="http://localhost/grubbie/assets/images/inventory_icon_inv.png"
-        title="Inventory"
-        alt="Inventory icon" />
-        Inventory
+        <i class="far fa-clipboard"></i>
+        <span>Inventory</span>
       </a>
     </li>
     <li>
       <a href="http://localhost/grubbie/orders/view.php">
-        <img
-        src="http://localhost/grubbie/assets/images/rate_icon_inv.png"
-        title="Ratings"
-        alt="Rate icon" />
-        Ratings
+        <i class="far fa-thumbs-up" title="Ratings"></i>
+        <span>Ratings</span>
       </a>
     </li>
     <li>
       <a  id="notifications" href="http://localhost/grubbie/user/notifications.php">
         <div>
-          <img
-          src="http://localhost/grubbie/assets/images/notifications_icon.png"
-          title="Messages"
-          alt="Notifications icon" />
+          <i class="far fa-envelope" title="Messages"></i>
           <div class="notifications-notice">&nbsp;</div>
         </div>
-        Messages
+        <span>Messages</span>
       </a>
       <div class="notifications-container">
         <div class="arrow-up"></div>

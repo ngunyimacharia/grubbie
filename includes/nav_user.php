@@ -2,40 +2,28 @@
   <ul>
     <li>
       <a href="http://localhost/grubbie/user/view.php">
-        <img
-        src="http://localhost/grubbie/assets/images/group_icon_inv.png"
-        title="Profile"
-        alt="Profile icon" />
-        Profile
+        <i class="far fa-user" title="Profile"></i>
+        <span>Profile</span>
       </a>
     </li>
     <li>
       <a href="http://localhost/grubbie/rating/rate.php">
-        <img
-        src="http://localhost/grubbie/assets/images/rate_icon_inv.png"
-        title="Rate"
-        alt="Rate icon" />
-        Rate
+        <i class="far fa-thumbs-up" title="Rate"></i>
+        <span>Rate</span>
       </a>
     </li>
     <li>
       <a href="http://localhost/grubbie/orders/view.php">
-        <img
-        src="http://localhost/grubbie/assets/images/food_icon_inv.png"
-        title="Meals"
-        alt="Meal icon" />
-        Meals
+        <i class="fas fa-utensils" title="Meals"></i>
+        <span>Meals</span>
       </a>
     </li>
     <li>
-      <a  id="notifications" href="http://localhost/grubbie/user/notifications.php">
+      <a id="notifications" href="http://localhost/grubbie/user/notifications.php">
         <div>
-          <img
-          src="http://localhost/grubbie/assets/images/notifications_icon.png"
-          title="Messages"
-          alt="Notifications icon" />
+          <i class="far fa-envelope" title="Messages"></i>
         </div>
-        Messages
+        <span>Messages</span>
       </a>
       <div class="notifications-container">
         <div class="arrow-up"></div>
