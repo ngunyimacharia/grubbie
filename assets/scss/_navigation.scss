@@ -131,3 +131,18 @@
 
 
 }
+
+nav ul li a div{
+  position: relative;
+}
+
+nav ul li div.notifications-notice{
+  background-image: $grubbie_gradient;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 25px;
+  position: absolute;
+  top:-5px;
+  right: 15px;
+}
