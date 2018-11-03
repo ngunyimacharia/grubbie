@@ -5,6 +5,9 @@ $school_bus_yellow:#FFDA00;
 $outrageous_orange:#FF5733;
 $gradient_yellow:#CAAD08;
 $grubbie_gradient: linear-gradient($gradient_yellow,#B85A3F);
+$success:#5CB85C;
+$warning:#F0AD4E;
+$danger:#D9534F;
 
 html{
   background-attachment: fixed;
@@ -75,6 +78,8 @@ hr{
   border: 1px solid $white;
 }
 
+/* Start of small elements */
+
 %clearfix{
   content: " "; /* Older browser do not support empty content */
   visibility: hidden;
@@ -87,87 +92,34 @@ hr{
   @extend %clearfix;
 }
 
-@media only screen and (min-width: 768px) {
-  #content-container div.notifications-container{
-    display: none;
-  }
-  header nav{
-    div.notifications-container{
-      display: none;
-      width: 350px;
-      margin: 5px 0 0 15px;
-      position: absolute;
-      background-image: $grubbie_gradient;
-      right: -10px;
 
-      .notification{
-        margin:20px 0;
-        display: block;
-        clear: both;
-        img{
-          float: left;
-          width: 20px;
-          margin: 0 20px;
-          vertical-align: middle;
-          display: inline-block;
-        }
-        div{
-          text-align: left;
-          margin-left: 70px;
-          a{
-            font-size: 1em;
-            color:$white;
-            text-decoration: none;
-          }
-
-          .timestamp{
-            font-size: 0.7em;
-          }
-        }
-      }
-    }
-  }
-
+%btn{
+  padding: 5px 10px;
+  margin: 0 5px;
+  border:0px;
+  font-weight: 700;
+  font-size: 14.66px;
+  cursor: pointer;
+  text-decoration:none;
+  text-align: center;
+  color: #fff;
 }
-@media only screen and (max-width: 767px) {
 
-  footer nav div.notifications-container{
-      display: none;
-  }
-
-  div.notifications-container{
-    width: 92%;
-    max-width: 600px;
-    margin-left: 15px;
-
-    .notification{
-      background-image: $grubbie_gradient;
-      margin:20px 0;
-      padding: 3px 20px 7px;
-      vertical-align: middle;
-      position: relative;
-
-      img{
-        float: left;
-        width: 20px;
-        margin: 15px 7px 0 2px;
-        vertical-align: middle;
-        display: inline-block;
-      }
-      div{
-        margin-left: 35px;
-        a{
-          color:$white;
-          text-decoration: none;
-        }
-
-        .timestamp{
-          font-size: 0.7em;
-        }
-      }
-    }
-  }
+.btn-success{
+  @extend %btn;
+  background-color: $success;
 }
+
+.btn-warning{
+  @extend %btn;
+  background-color: $warning;
+}
+
+.btn-danger{
+  @extend %btn;
+  background-color: $danger;
+}
+
 
 .arrow-up {
   width: 0;
@@ -207,4 +159,235 @@ hr{
   border-right-color: $gradient_yellow;
   left:-45px;
   position: absolute;
+}
+
+%circ{
+  border: 0;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  color:$white;
+}
+
+.circ-danger{
+  @extend %circ;
+  background-color: $danger;
+}
+
+.circ-warning{
+  @extend %circ;
+  background-color: $warning;
+}
+
+/* End of small elements */
+
+/* Start of major components */
+
+@media only screen and (min-width: 768px) {
+  #content-container div.notifications-container{
+    display: none;
+  }
+  header nav{
+    div.notifications-container{
+      display: none;
+      width: 350px;
+      margin: 5px 0 0 15px;
+      position: absolute;
+      background-image: $grubbie_gradient;
+      right: -10px;
+      z-index: 1000;
+
+      .notification{
+        margin:20px 0;
+        display: block;
+        clear: both;
+        img{
+          float: left;
+          width: 20px;
+          margin: 0 20px;
+          vertical-align: middle;
+          display: inline-block;
+        }
+        div{
+          text-align: left;
+          margin-left: 70px;
+          a{
+            font-size: 1em;
+            color:$white;
+            text-decoration: none;
+          }
+
+          .timestamp{
+            font-size: 0.7em;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 767px) {
+
+  footer nav div.notifications-container{
+    display: none;
+  }
+
+  div.notifications-container{
+    width: 92%;
+    max-width: 600px;
+    margin-left: 15px;
+
+    .notification{
+      background-image: $grubbie_gradient;
+      margin:20px 0;
+      padding: 3px 20px 7px;
+      vertical-align: middle;
+      position: relative;
+
+      img{
+        float: left;
+        width: 20px;
+        margin: 15px 7px 0 2px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+      div{
+        margin-left: 35px;
+        a{
+          color:$white;
+          text-decoration: none;
+        }
+
+        .timestamp{
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+}
+
+.gmail-container{
+  width: 100%;
+  margin:50px auto;
+
+
+  @media only screen and (min-width: 577px) {
+
+    .left-menu{
+      padding-top: 50px;
+    }
+  }
+
+  .left-menu{
+    height: 100%;
+    overflow: hidden;
+
+    @media only screen and (min-width: 577px) {
+      .xs{
+        display: none;
+      }
+      .lg{
+        display: block;
+      }
+
+    }
+
+    @media only screen and (max-width: 576px) {
+      .xs{
+        display: block;
+      }
+      .lg{
+        display: none;
+      }
+    }
+
+    ul{
+      list-style-type: none;
+      padding: 0;
+
+      a.active{
+        color: $school_bus_yellow;
+      }
+
+      a{
+        color:$white;
+        text-decoration: none;
+        li{
+          padding: 10px 20px 10px 5% ;
+          font-weight: 900;
+        }
+      }
+
+      a.btn li{
+        background-image: $grubbie_gradient;
+      }
+    }
+  }
+
+  .right-main{
+    float: right;
+
+    .top-actions{
+
+      .select{
+        color:rgba(255,255,255,0.9);
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+
+      input[type="checkbox"]{
+        background: transparent;
+      }
+
+
+    }
+
+    .main-section{
+      background: rgba(0,0,0,0.5);
+      overflow-x: scroll;
+
+      .cont{
+        min-width: 600px;
+
+        .headers{
+          padding: 10px 25px;
+          font-weight: 700;
+        }
+
+        .body{
+          padding:10px;
+
+          .row{
+            padding:10px 0;
+            cursor: pointer;
+
+            .hv{
+              opacity: 0;
+              transition: opacity 0.4s;
+            }
+          }
+
+          .row:hover{
+            background-color: rgba(255,255,255,0.1);
+            .hv{
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float:right;
 }
