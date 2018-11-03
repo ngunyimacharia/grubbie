@@ -1,0 +1,71 @@
+//Colors
+$white: #fff;
+$school_bus_yellow:#FFDA00;
+$outrageous_orange:#FF5733;
+$gradient : linear(60deg, $school_bus_yellow, $outrageous_orange);
+
+// min-width
+$tablet: 650px;
+$desktop: 900px;
+
+
+html{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  html{
+    background-image: url('http://localhost/grubbie/assets/images/background_lg.jpg');
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  html{
+    background-image: url('http://localhost/grubbie/assets/images/background_sm.jpg');
+  }
+}
+
+body{
+  color: white;
+  width: 100%;
+  min-height: 100%;
+  font-size: 0.8em;
+  margin: 0;
+  border:0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  top:0;
+  clear: both;
+
+  #body-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: -100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+}
+
+h1{
+  text-align: center;
+}
+
+%clearfix{
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clearfix:after, footer:after {
+  @extend %clearfix;
+}

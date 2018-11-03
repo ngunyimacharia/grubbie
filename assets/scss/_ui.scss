@@ -1,0 +1,61 @@
+.days{
+    color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+
+    .day{
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 40px;
+        text-align: center;
+    }
+    .day:active{
+        background-color: $gradient;
+    }
+}
+
+.rounded-container{
+    padding-left: 10px;
+   .rounded-wrapper{
+        width: 80%;
+        height: 80px;
+        margin: auto;
+        padding-right: 20px;
+        border: 1px solid white;
+        border-radius: 120px;
+
+        .rounded-image{
+            width: 70px;
+            height: 70px;
+            margin: 5px;
+            border: 1px solid white;
+            border-radius: 120px;
+            display: inline-block;
+            line-height: 80px;
+        }
+        .rounded-text{
+            margin-top: -80px;
+            margin-left: 10px;
+            vertical-align: middle;
+            display: inline-block;
+            line-height: 80px;
+        }
+    }
+}
+
+
+@media(min-width: $tablet){
+    .days{
+        .day{
+            border: 1px solid white;
+            border-radius: 50px;
+            width: 70px;
+            text-align: center;
+        }
+    }
+}
+@media(min-width: $desktop){
+    
+}
