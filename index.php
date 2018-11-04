@@ -22,9 +22,9 @@ Welcome!
     To include headers and footers specifically for the admins, use the code below. This should be done only for pages intended for viewing by the admin.
     <blockquote>
       //Start of file<br/>
-      &lt;?php include("../includes/header.php"); ?&gt;<br/>
+      &lt;?php include("../includes/header-admin.php"); ?&gt;<br/>
       //All page content<br/>
-      &lt;?php include("../includes/footer.php"); ?&gt;<br/>
+      &lt;?php include("../includes/footer-admin.php"); ?&gt;<br/>
       //End of page
     </blockquote>
   </p>
