@@ -12,20 +12,29 @@ Welcome!
   <p>
     Headers and footers are to be included in all pages. To include them for normal users, simply add the following lines at the start and end of your code.
     <blockquote>
-      //Start of file<br/>
+      &lt;!--Start of file --&gt;<br/>
       &lt;?php include("../includes/header.php"); ?&gt;<br/>
-      //All page content<br/>
+      &lt;!--All page content --&gt;<br/>
       &lt;?php include("../includes/footer.php"); ?&gt;<br/>
-      //End of page
+      &lt;!--End of page --&gt;<br/>
     </blockquote>
     <br/>
     To include headers and footers specifically for the admins, use the code below. This should be done only for pages intended for viewing by the admin.
     <blockquote>
-      //Start of file<br/>
+      &lt;!--Start of file --&gt;<br/>
       &lt;?php include("../includes/header-admin.php"); ?&gt;<br/>
-      //All page content<br/>
+      &lt;!--All page content --&gt;<br/>
       &lt;?php include("../includes/footer-admin.php"); ?&gt;<br/>
-      //End of page
+      &lt;!--End of page --&gt;<br/>
+    </blockquote>
+    <br/>
+    To include the header and footer file without the navigation and logo, use the code below. This is best used for login, signup pages etc
+    <blockquote>
+      &lt;!--Start of file --&gt;<br/>
+      &lt;?php include("../includes/header-no-nav.php"); ?&gt;<br/>
+      &lt;!--All page content --&gt;<br/>
+      &lt;?php include("../includes/footer-no-nav.php"); ?&gt;<br/>
+      &lt;!--End of page --&gt;<br/>
     </blockquote>
   </p>
 

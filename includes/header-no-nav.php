@@ -12,12 +12,4 @@
 </head>
 <body>
   <div id="body-overlay"></div>
-  <header>
-    <a href = "http://localhost/grubbie">
-      <div id="logo">
-        <img src="http://localhost/grubbie/assets/images/logo.png" alt="logo" title="logo"/>
-        <div id="logo-caption">Gru<span>bb</span>ie</div>
-      </div>
-    </a>
-  </header>
   <div id="content-container">
