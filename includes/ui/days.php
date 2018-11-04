@@ -1,7 +1,7 @@
 <div class="days">
-    <span class="day" active><a href="#">Mon</a></span>
-    <span class="day"><a href="#">Tue</a></span>
-    <span class="day"><a href="#">Wed</a></span>
-    <span class="day"><a href="#">Thu</a></span>
-    <span class="day"><a href="#">Fri</a></span>
+    <button class="day" active>Mon</button>
+    <button class="day">Tue</button>
+    <button class="day">Wed</button>
+    <button class="day">Thu</button>
+    <button class="day">Fri</button>
 </div>
