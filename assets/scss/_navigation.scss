@@ -3,6 +3,11 @@
 
     max-height: 12vh;
     width: 100%;
+<<<<<<< HEAD
+=======
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
+    padding-bottom: 5px;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
 
     div#logo{
       display: inline-block;
@@ -37,6 +42,7 @@
         li{
           display:inline-block;
           text-align:center;
+<<<<<<< HEAD
           margin:5px 20px;
           width: 60px;
           a{
@@ -49,10 +55,33 @@
               width: 30px;
               height: 30px;
               margin: 0 auto 5px;
+=======
+          margin:10px 20px;
+          width: 50px;
+          height: 30px;
+          position: relative;
+          vertical-align: text-top;
+          a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: 100;
+            span{
+              margin:3px 0 0;
+              display: block;
+              font-size: 0.6em;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
             }
 
           }
 
+<<<<<<< HEAD
+=======
+          a:hover{
+            color:$outrageous_orange;
+          }
+
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
         }
 
       }
@@ -73,17 +102,31 @@
 
   #content-container{
     clear:both;
+<<<<<<< HEAD
     height: 86.7vh;
     overflow-y: scroll;
+=======
+    height: 86.7%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
   }
 
   footer{
 
+<<<<<<< HEAD
     height: 10.8vh;
+=======
+    height: 8%;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
+<<<<<<< HEAD
+=======
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
 
     nav{
 
@@ -97,10 +140,19 @@
           a{
             text-decoration: none;
             color: white;
+<<<<<<< HEAD
             font-size: 0.8em;
             img{
               display:block;
               margin: 0 auto 5px;
+=======
+            font-size: 15px;
+
+            span{
+              font-size: 0.6em;
+              display: block;
+              letter-spacing: 1px;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
             }
           }
         }
@@ -110,6 +162,7 @@
 
     nav.user ul li{
       width: 23%;
+<<<<<<< HEAD
 
       img{
         height: 30px;
@@ -122,8 +175,32 @@
       img{
         height: 20px;
       }
+=======
+    }
+
+    nav.admin ul li{
+      width: 19%;
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
     }
   }
 
 
 }
+<<<<<<< HEAD
+=======
+
+nav ul li a div{
+  position: relative;
+}
+
+nav ul li div.notifications-notice{
+  background-image: $grubbie_gradient;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 25px;
+  position: absolute;
+  top:-5px;
+  right: 15px;
+}
+>>>>>>> 1d85dec7ff8673344b9547df6bdb0d25838c2fae
