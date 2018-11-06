@@ -27,7 +27,15 @@
   }
 }
 
-#ratings-canvas-cont{
-  margin: auto;
-   width:50%;
+@media only screen and (min-width: 768px) {
+  #ratings-canvas-cont{
+    margin: auto;
+     width:50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #ratings-canvas-cont{
+     width:90vw;
+  }
 }
