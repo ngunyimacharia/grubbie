@@ -1,5 +1,12 @@
 <?php include('../includes/header.php'); ?>
     <h1>View your orders</h1>
+
+<!-- <img src="http://localhost/grubbie/assets/images/profile_icon.png" alt = "logo">
+
+<img src="http://localhost/grubbie/assets/images/rate_icon_inv.png" alt = "logo">
+
+<img src="http://localhost/grubbie/assets/images/meal_icon.png" alt = "logo"> -->
+
     <?php include ('../includes/ui/days.php'); ?>
     <!-- breakfast lunch dinner -->
     <div class="bls">
@@ -34,4 +41,6 @@
 
     <!-- submit button --><br/>
     <button>Submit</button>
+    <?php //include ('../includes/ui/rounded_div.php'); ?>
+    
 <?php include('../includes/footer.php'); ?>

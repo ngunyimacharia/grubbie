@@ -3,11 +3,10 @@
 
 <img src="http://localhost/grubbie/assets/images/profile_icon.png" alt = "logo" >
 
-<form action="/view.php" method = "post">
+We need your email address so we can send you a reset link
+<form>
     <input type = "text" name = "Email" placeholder = "Email"/><p>
-    <input type = "password" name = "Password" placeholder = "Password"/><p>
-    <p align = "right"> <a href = "forgotpassword.php"> Forgot Password</a> </p>
-    <input type = "submit" name = "Sign Up" value = "Sign In"><p>
+    <input type = "submit" name = "Send me a Reset Link"><p>
 </form>
 
 <p align = "center"> Don't have an account? <a href = "signup.php">Sign Up</a> </p>
