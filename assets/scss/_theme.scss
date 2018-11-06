@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //Colors
+=======
+
+>>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
 $black: #000;
 $white: #fff;
 $school_bus_yellow:#FFDA00;
@@ -8,8 +12,13 @@ $grubbie_gradient: linear-gradient($gradient_yellow,#B85A3F);
 $success:#5CB85C;
 $warning:#F0AD4E;
 $danger:#D9534F;
+<<<<<<< HEAD
 
 // Dimensions
+=======
+$gradient : linear(60deg, $school_bus_yellow, $outrageous_orange);
+// min-width
+>>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
 $tablet: 650px;
 $desktop: 900px;
 
@@ -57,6 +66,12 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+<<<<<<< HEAD
+=======
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: -100; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+>>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
   }
 
   #body-overlay {
@@ -94,6 +109,10 @@ hr{
 .clearfix:after, footer:after {
   @extend %clearfix;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
 
 
 %btn{
@@ -106,6 +125,7 @@ hr{
   text-decoration:none;
   text-align: center;
   color: #fff;
+  height: auto !important;
 }
 
 .btn-success{
@@ -123,6 +143,20 @@ hr{
   background-color: $danger;
 }
 
+.btn-circ{
+  border: 1px solid $white;
+  border-radius: 25px;
+  padding: 5px 20px;
+  height: auto;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 2px;
+}
+
+.btn-circ.active{
+  background-image: $grubbie_gradient;
+}
 
 .arrow-up {
   width: 0;
@@ -184,6 +218,10 @@ hr{
 .circ-warning{
   @extend %circ;
   background-color: $warning;
+}
+
+.text-right{
+    text-align: right;
 }
 
 /* End of small elements */
@@ -278,6 +316,18 @@ hr{
   margin:50px auto;
 
 
+      label{
+        font-weight: 900;
+      }
+
+      select{
+          background: transparent;
+          border:none;
+          padding: 5px;
+          margin: 7px 0 5px;
+      }
+
+
   @media only screen and (min-width: 577px) {
 
     .left-menu{
@@ -288,6 +338,7 @@ hr{
   .left-menu{
     height: 100%;
     overflow: hidden;
+
 
     @media only screen and (min-width: 577px) {
       .xs{
@@ -334,7 +385,12 @@ hr{
   .right-main{
     float: right;
 
+    .top-options{
+      text-align: center;
+    }
+
     .top-actions{
+
 
       .select{
         color:rgba(255,255,255,0.9);
