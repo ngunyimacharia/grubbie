@@ -36,7 +36,7 @@ html{
 body{
   color: white;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   font-size: 0.8em;
   margin: 0;
   border:0;
@@ -110,6 +110,7 @@ hr{
   text-decoration:none;
   text-align: center;
   color: #fff;
+  height: auto !important;
 }
 
 .btn-success{
@@ -127,6 +128,20 @@ hr{
   background-color: $danger;
 }
 
+.btn-circ{
+  border: 1px solid $white;
+  border-radius: 25px;
+  padding: 5px 20px;
+  height: auto;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 2px;
+}
+
+.btn-circ.active{
+  background-image: $grubbie_gradient;
+}
 
 .arrow-up {
   width: 0;
@@ -188,6 +203,10 @@ hr{
 .circ-warning{
   @extend %circ;
   background-color: $warning;
+}
+
+.text-right{
+    text-align: right;
 }
 
 /* End of small elements */
@@ -282,6 +301,18 @@ hr{
   margin:50px auto;
 
 
+      label{
+        font-weight: 900;
+      }
+
+      select{
+          background: transparent;
+          border:none;
+          padding: 5px;
+          margin: 7px 0 5px;
+      }
+
+
   @media only screen and (min-width: 577px) {
 
     .left-menu{
@@ -292,6 +323,7 @@ hr{
   .left-menu{
     height: 100%;
     overflow: hidden;
+
 
     @media only screen and (min-width: 577px) {
       .xs{
@@ -338,7 +370,12 @@ hr{
   .right-main{
     float: right;
 
+    .top-options{
+      text-align: center;
+    }
+
     .top-actions{
+
 
       .select{
         color:rgba(255,255,255,0.9);

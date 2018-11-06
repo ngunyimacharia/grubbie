@@ -20,7 +20,7 @@
       </a>
     </li>
     <li>
-      <a href="http://localhost/grubbie/orders/view.php">
+      <a href="http://localhost/grubbie/rating/admin.php">
         <i class="far fa-thumbs-up" title="Ratings"></i>
         <span>Ratings</span>
       </a>
