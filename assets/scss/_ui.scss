@@ -12,13 +12,15 @@
         width: 40px;
         text-align: center;
     }
-    .day:active{
-        background-color: $gradient;
+    
+    .active, .day:hover {
+        background: $grubbie_gradient;
     }
 }
 
 .rounded-container{
     padding-left: 10px;
+    margin-bottom: 10px;
    .rounded-wrapper{
         width: 80%;
         height: 80px;
@@ -26,24 +28,57 @@
         padding-right: 20px;
         border: 1px solid white;
         border-radius: 120px;
-
-        .rounded-image{
-            width: 70px;
-            height: 70px;
-            margin: 5px;
-            border: 1px solid white;
-            border-radius: 120px;
-            display: inline-block;
-            line-height: 80px;
-        }
-        .rounded-text{
-            margin-top: -80px;
-            margin-left: 10px;
-            vertical-align: middle;
-            display: inline-block;
-            line-height: 80px;
-        }
     }
+    .rounded-image{
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 120px;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .rounded-text{
+        margin-top: -80px;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .rate-wrapper{
+        width: 80%;
+        height: 80px;
+        margin: auto;
+        padding-right: 20px;
+        border-radius: 120px;
+    }
+    .rate-text{
+        margin-top: -80px;
+        margin-left: 10px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    input{
+        background: transparent;
+        color: white;
+        border: none;
+        border-bottom: 1px solid white;
+        font-style: italic;
+    }
+}
+.star {
+    border: none;
+    outline: none;
+    padding: 3px 3px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .star:hover {
+    background-color: white;
 }
 
 form{
