@@ -1,7 +1,7 @@
 <div id="stars">
-  <button class="star active"></button>
-  <button class="star"></button>
-  <button class="star"></button>
-  <button class="star"></button>
-  <button class="star"></button>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
+  <i class="far fa-star"></i>
 </div>
