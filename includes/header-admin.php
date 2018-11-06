@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel='stylesheet' href="http://localhost/grubbie/assets/css/main.css" />
   <link rel="stylesheet" href="http://localhost/grubbie/assets/fontawesome/css/all.min.css" />
+  <script src="http://localhost/grubbie/assets/js/Chart.bundle.js" type="text/javascript"></script>
+  <script src="http://localhost/grubbie/assets/js/Chart.bundle.min.js" type="text/javascript"></script>
 </head>
 <body>
   <div id="body-overlay"></div>
