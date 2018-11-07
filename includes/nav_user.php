@@ -13,7 +13,7 @@
       </a>
     </li>
     <li>
-      <a href="http://localhost/grubbie/orders/view.php">
+      <a href="http://localhost/grubbie/menu/view.php">
         <i class="fas fa-utensils" title="Meals"></i>
         <span>Meals</span>
       </a>

@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 //Colors
-=======
 
->>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
 $black: #000;
 $white: #fff;
 $school_bus_yellow:#FFDA00;
@@ -12,13 +9,10 @@ $grubbie_gradient: linear-gradient($gradient_yellow,#B85A3F);
 $success:#5CB85C;
 $warning:#F0AD4E;
 $danger:#D9534F;
-<<<<<<< HEAD
 
 // Dimensions
-=======
 $gradient : linear(60deg, $school_bus_yellow, $outrageous_orange);
 // min-width
->>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
 $tablet: 650px;
 $desktop: 900px;
 
@@ -66,12 +60,9 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-<<<<<<< HEAD
-=======
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: -100; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
->>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
   }
 
   #body-overlay {
@@ -109,11 +100,6 @@ hr{
 .clearfix:after, footer:after {
   @extend %clearfix;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 17e9c4fb0384149e2c9e530e12b076bb7bd40275
-
 
 %btn{
   padding: 5px 10px;
@@ -141,6 +127,15 @@ hr{
 .btn-danger{
   @extend %btn;
   background-color: $danger;
+}
+
+.round-btn-danger{
+  @extend %btn;
+  background-color: $danger;
+  border-radius: 25px;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 12px 30px;
 }
 
 .btn-circ{

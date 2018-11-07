@@ -3,7 +3,7 @@
 
 <img src="http://localhost/grubbie/assets/images/profile_icon.png" alt = "logo" >
 
-<form action = "">
+<form action = "http://localhost/grubbie/menu/view.php" method="POST">
     <input type = "text" name = "firstname" placeholder = "First Name"/><p>
     <input type = "text" name = "lastname" placeholder = "Last Name"/><p>
     <input type = "text" name = "Email" placeholder = "Email"/><p>

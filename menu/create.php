@@ -1,5 +1,5 @@
-<?php include('../includes/header.php'); ?>
-<h1>View your orders</h1>
+<?php include('../includes/header-admin.php'); ?>
+<h1>Create a menu</h1>
 
 <?php include ('../includes/ui/days.php'); ?>
 <!-- breakfast lunch dinner -->
@@ -20,7 +20,7 @@ Options<br/>
   <input type="checkbox" name="Potatoe Chips" id=""><label for="Potatoe Chips">Potatoe Chips</label><i class="fas fa-caret-down"></i><br>
 
   <input type="checkbox" name="Eba" id=""><label for="Eba">Eba</label><i class="fas fa-caret-down"></i><br>
-  
+
   <input type="checkbox" name="Eba" id=""><label for="Eba">Eba</label><i class="fas fa-caret-down"></i><br>
 
   <input type="checkbox" name="Plantain" id=""><label for="Plantain">Plantain</label><i class="fas fa-caret-down"></i><br>
@@ -36,4 +36,4 @@ Options<br/>
 <!-- submit button --><br/>
 <button>Submit</button>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../includes/footer-admin.php'); ?>

@@ -1,6 +1,6 @@
-<?php include('../includes/header-admin.php'); ?>
+<?php include('../includes/header.php'); ?>
 
-<form action = "view_edit.php">
+<form action = "http://localhost/grubbie/menu/view.php" method="POST">
 <div id="Translation">
     <h3>User Name</h3>
     <p>Department: <select name = "dept">
@@ -23,17 +23,17 @@
     </select>
 
     <p> Allergy: $aller</p>
-            
+
     <p>Preferred Diet: <select name = "allerg">
             <option value = "Vege"> Vegetarian </option>
             <option value = "Omni"> Omnivorous </option>
             <option value = "Pesc"> Pescaterian </option>
             <option value = "Vegan"> Vegan </option></p>
     </select>
-   
+
 
     <button class="round-block" type = "submit"> Save </button><p>
 
 </div>
 
-<?php include('../includes/footer-admin.php'); ?>
+<?php include('../includes/footer.php'); ?>

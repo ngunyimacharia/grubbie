@@ -1,7 +1,7 @@
-<?php include('../includes/header-admin.php'); ?>
+<?php include('../includes/header.php'); ?>
 
 <form action = "view_edit.php">
-<div id="Translation">
+  <div id="Translation">
     <h3>User Name</h3>
     <p>Department: $dept</p>
     <p>Country: $count</p>
@@ -9,7 +9,7 @@
     <p>Preferred Diet: $vege</p>
 
     <button class="round-block" type = "submit"> Edit </button><p>
-
-</div>
-
-<?php include('../includes/footer-admin.php'); ?>
+    <a href="http://localhost/grubbie" class="round-btn-danger" >Logout</a>
+    </div>
+  </form>
+  <?php include('../includes/footer.php'); ?>

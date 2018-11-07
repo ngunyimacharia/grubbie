@@ -3,7 +3,7 @@
 
 <img src="http://localhost/grubbie/assets/images/profile_icon.png" alt = "logo" >
 
-<form action="/view.php" method = "post">
+<form action="http://localhost/grubbie/user/manage.php" method = "post">
     <input type = "text" name = "Email" placeholder = "Email"/><p>
     <input type = "password" name = "Password" placeholder = "Password"/><p>
     <p align = "right"> <a href = "forgotpassword.php"> Forgot Password</a> </p>
