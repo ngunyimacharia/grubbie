@@ -89,15 +89,16 @@ form{
         width: 100%;
         background: transparent;
         border: none;
-        border-bottom: 1px solid white;
-        color: white;
+        border-bottom: 1px solid $outrageous_orange;
+        color: $outrageous_orange;
     }
     input::placeholder{
-        color: rgba($color: white, $alpha: 0.5);
+        color: rgba($color: $outrageous_orange, $alpha: 0.5);
+        padding-left: 5px;
     }
     input[type=submit]{
         height: 35px;
-        border: 1px solid white;
+        border: 1px solid $outrageous_orange;
         border-radius: 50px;
         margin: 10px auto;
     }
@@ -106,7 +107,7 @@ form{
         width: 50%;
         background: transparent;
         border: none;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid $outrageous_orange;
         color: rgb(124, 122, 122);
     }
 }
@@ -114,15 +115,23 @@ form{
     background: white;
     width: 80%;
     margin: auto;
+    color: $outrageous_orange;
+
+    a{
+        text-decoration: none;
+        color: $outrageous_orange;
+    }
 
     .logo-white{
         padding-top: 50px;
     }
 
     form{
-        margin: 50px auto 100px;
+        color: $outrageous_orange;
+        margin: 50px auto;
         width: 80%;
-        padding-bottom: 100px;
+        // padding-bottom: 100px;
+    
     }
     button{
         border: 1px solid $outrageous_orange;
@@ -131,6 +140,11 @@ form{
         width: 100%;
         margin: auto;
     }
+
+    p{
+        color: rgba($color: $outrageous_orange, $alpha: 0.5);
+    }
+    padding-bottom: 50px;
 }
 
 @media(min-width: $tablet){
