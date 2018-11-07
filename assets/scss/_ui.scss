@@ -110,6 +110,24 @@ form{
         color: rgb(124, 122, 122);
     }
 }
+.paper{
+    background: white;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+
+    form{
+        margin: 100px auto;
+        width: 80%;
+    }
+    button{
+        border: 1px solid $outrageous_orange;
+        color: $outrageous_orange;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+}
 
 @media(min-width: $tablet){
     .days{
