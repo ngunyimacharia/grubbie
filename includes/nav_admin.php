@@ -25,7 +25,7 @@
       </a>
     </li>
     <li>
-      <a  id="notifications" href="http://localhost/grubbie/user/notifications.php">
+      <a  id="notifications" href="http://localhost/grubbie/user/admin-notifications.php">
         <div>
           <i class="far fa-envelope" title="Messages"></i>
           <div class="notifications-notice">&nbsp;</div>
@@ -38,7 +38,7 @@
 
           <img src="http://localhost/grubbie/assets/images/inventory_icon_inv.png" alt="Clipboard" title="Clipboard"/>
           <div>
-            <a href="http://localhost/grubbie/orders/view.php"><p>The menu for this week has been sent</p></a>
+            <a href="http://localhost/grubbie/orders/view.php"><p>The menu for this week has been published</p></a>
             <span class="timestamp">1 hour ago</span>
           </div>
         </div>
@@ -48,7 +48,7 @@
           <div>
             <a href="http://localhost/grubbie/orders/view.php">
               <p>
-                The menu for this week has been sent
+                A comment has been added a submitted menu
               </p>
             </a>
             <span class="timestamp">1 day ago</span>
@@ -58,7 +58,7 @@
 
           <img src="http://localhost/grubbie/assets/images/inventory_icon_inv.png" alt="Clipboard" title="Clipboard"/>
           <div>
-            <a href="http://localhost/grubbie/orders/view.php"><p>The menu for this week has been sent</p></a>
+            <a href="http://localhost/grubbie/orders/view.php"><p>A new user needs activation.</p></a>
             <span class="timestamp">7 days ago</span>
           </div>
         </div>
@@ -66,7 +66,7 @@
 
           <img src="http://localhost/grubbie/assets/images/inventory_icon_inv.png" alt="Clipboard" title="Clipboard"/>
           <div>
-            <a href="http://localhost/grubbie/orders/view.php"><p>The menu for this week has been sent</p></a>
+            <a href="http://localhost/grubbie/orders/view.php"><p>A new feedback message has been sent.</p></a>
             <span class="timestamp">14 days ago</span>
           </div>
         </div>
@@ -74,7 +74,7 @@
 
           <img src="http://localhost/grubbie/assets/images/inventory_icon_inv.png" alt="Clipboard" title="Clipboard"/>
           <div>
-            <a href="http://localhost/grubbie/orders/view.php"><p>The menu for this week has been sent</p></a>
+            <a href="http://localhost/grubbie/orders/view.php"><p>New message from the superadmin.</p></a>
             <span class="timestamp">21 days ago</span>
           </div>
         </div>
