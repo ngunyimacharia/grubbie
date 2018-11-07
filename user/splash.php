@@ -2,7 +2,7 @@
 <div id="grubbie-gradient"></div>
 <div class='paper'>
     <div class = "logo-white" >
-        <img src="http://localhost/grubbie/assets/images/profile_icon.png" alt = "logo">
+        <img src="http://localhost/grubbie/assets/images/logo.png" alt = "logo">
     </div>
 
     <form>
