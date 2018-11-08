@@ -21,7 +21,7 @@
     <li>
       <a href="http://localhost/grubbie/rating/admin.php">
         <i class="far fa-thumbs-up" title="Ratings"></i>
-        <span>Ratings</span>
+        <span>Feedback</span>
       </a>
     </li>
     <li>
