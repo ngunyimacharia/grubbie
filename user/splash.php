@@ -2,12 +2,12 @@
 <div id="grubbie-gradient"></div>
 <div class='paper'>
     <div class = "logo-white" >
-        <img src="http://localhost/grubbie/assets/images/logo.png" alt = "logo">
+        <a href = "http://localhost/grubbie"><img src="http://localhost/grubbie/assets/images/logo.png" alt = "logo" /></a>
     </div>
 
     <form>
         <button class="round-block" type = "submit" formaction = "signup.php"> Create Account</button><p>
-        
+
         <button class="round-block" type = "submit" formaction = "login.php"> Sign In </button><p>
     </form>
 </div>

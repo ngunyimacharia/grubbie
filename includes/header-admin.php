@@ -6,7 +6,7 @@
       type="image/png"
       href="http://localhost/grubbie/assets/images/logo.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel='stylesheet' href="http://localhost/grubbie/assets/css/main.css" />
   <link rel="stylesheet" href="http://localhost/grubbie/assets/fontawesome/css/all.min.css" />
   <script src="http://localhost/grubbie/assets/js/Chart.bundle.js" type="text/javascript"></script>

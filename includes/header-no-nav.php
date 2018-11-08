@@ -6,7 +6,7 @@
   <link rel="icon"
   type="image/png"
   href="http://localhost/grubbie/assets/images/logo.png">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
   <link rel='stylesheet' href="http://localhost/grubbie/assets/css/main.css" />
   <link rel="stylesheet" href="http://localhost/grubbie/assets/fontawesome/css/all.min.css" /></head>
 <body>
