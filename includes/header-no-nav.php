@@ -11,4 +11,4 @@
   <link rel="stylesheet" href="http://localhost/grubbie/assets/fontawesome/css/all.min.css" /></head>
 <body>
   <div id="body-overlay"></div>
-  <div id="content-container">
+  <div id="no-bg content-container">

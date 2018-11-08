@@ -49,8 +49,25 @@ body{
   clear: both;
 
   #content-container{
-    width: 98%;
-    margin: 0 auto;
+    width: auto;
+    margin: 5vh 2vw;
+    padding: 5vh 5vw;
+    background: rgba(0,0,0,0.5);
+    min-height: 80vh;
+    border-radius: 15px;
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    #content-container{
+      margin: 0 !important;
+      border-radius: 0 !important;
+    }
+
+  }
+
+  .no-bg{
+    background: transparent !important;
   }
 
   %overlay-props{
@@ -106,12 +123,14 @@ hr{
   margin: 0 5px;
   border:0px;
   font-weight: 700;
-  font-size: 14.66px;
+  font-size: 1em;
   cursor: pointer;
   text-decoration:none;
   text-align: center;
   color: #fff;
   height: auto !important;
+  border-radius: 25px;
+  width: 300px !important;
 }
 
 .btn-success{
@@ -147,6 +166,7 @@ hr{
   font-size: 1em;
   font-weight: 600;
   margin: 2px;
+  background: transparent;
 }
 
 .btn-circ.active{
@@ -205,6 +225,11 @@ hr{
   color:$white;
 }
 
+.circ-success{
+  @extend %circ;
+  background-color: $success;
+}
+
 .circ-danger{
   @extend %circ;
   background-color: $danger;
@@ -216,7 +241,15 @@ hr{
 }
 
 .text-right{
-    text-align: right;
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.pull-right{
+  float:right;
 }
 
 /* End of small elements */
@@ -311,16 +344,17 @@ hr{
   margin:50px auto;
 
 
-      label{
-        font-weight: 900;
-      }
+  label{
+    font-weight: 900;
+  }
 
-      select{
-          background: transparent;
-          border:none;
-          padding: 5px;
-          margin: 7px 0 5px;
-      }
+
+  select{
+    background: transparent;
+    border:none;
+    padding: 5px;
+    margin: 7px 0 5px;
+  }
 
 
   @media only screen and (min-width: 577px) {
@@ -351,6 +385,19 @@ hr{
       }
       .lg{
         display: none;
+      }
+
+      .description{
+        margin-top:5px;
+      }
+
+      .dark{
+        background: rgba(0,0,0,0.5);
+      }
+
+      select{
+        margin: 0;
+        text-align: center;
       }
     }
 
@@ -403,7 +450,14 @@ hr{
     .main-section{
       background: rgba(0,0,0,0.5);
       overflow-x: scroll;
+      border-radius: 15px;
 
+
+      @media only screen and (max-width: 576px) {
+        .cont{
+            min-width: auto !important;
+        }
+      }
       .cont{
         min-width: 600px;
 
@@ -412,6 +466,35 @@ hr{
           font-weight: 700;
         }
 
+        .body .row.xs{
+          display: none;
+        }
+
+        @media only screen and (max-width: 576px) {
+
+          .headers{
+            display: none;
+          }
+
+          .body .row.lg{
+            display: none;
+          }
+
+          .body .row.xs{
+            display: flex;
+
+            .data{
+              div{
+                margin: 0 0 5px;
+              }
+              .actions{
+                margin-top:10px;
+              }
+            }
+
+          }
+
+        }
         .body{
           padding:10px;
 
