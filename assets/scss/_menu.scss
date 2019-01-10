@@ -5,6 +5,19 @@
   }
 
   @media only screen and (max-width: 767px) {
+
+    .rounded-wrapper{
+      width:100% !important;
+
+      .rounded-text{
+        margin-left: 80px;
+        vertical-align: top;
+
+        a{
+          display: none;
+        }
+      }
+    }
     h2{
       font-size: 1em;
       margin-top: 20px;
@@ -34,6 +47,10 @@
     width: 100%;
     text-align: center;
     margin: auto;
+
+    button{
+      width: 80px;
+    }
   }
 
   select{

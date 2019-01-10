@@ -18,6 +18,14 @@
   }
 }
 
+.rounded-container.active{
+  background: transparent;
+  .rounded-wrapper{
+    background-image: $grubbie_gradient;
+
+  }
+
+}
 .rounded-container{
     padding-left: 10px;
     margin-bottom: 10px;
@@ -28,6 +36,7 @@
       padding-right: 20px;
       border: 1px solid white;
       border-radius: 120px;
+
     }
     .rounded-image{
       width: 70px;
@@ -44,6 +53,12 @@
       vertical-align: middle;
       display: inline-block;
       line-height: 80px;
+      width: 70%;
+
+      a{
+        color: $white;
+        text-decoration: none;
+      }
     }
     .rate-wrapper{
       width: 80%;
@@ -58,7 +73,17 @@
       vertical-align: middle;
       display: inline-block;
     }
-  
+
+    @media screen and (max-width: 767px){
+      .rate-text{
+        margin-left: 80px;
+      }
+
+      .rounded-container .rate-wrapper {
+          width: 100%;
+      }
+    }
+
     input{
       background: transparent;
       color: white;

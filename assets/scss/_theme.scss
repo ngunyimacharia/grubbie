@@ -167,6 +167,8 @@ hr{
   font-weight: 600;
   margin: 2px;
   background: transparent;
+  color:$white;
+  text-decoration: none;
 }
 
 .btn-circ.active{
@@ -255,6 +257,14 @@ hr{
 /* End of small elements */
 
 /* Start of major components */
+
+.header-container{
+  width: 100%;
+
+  h1{
+  text-align: left;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   #content-container div.notifications-container{

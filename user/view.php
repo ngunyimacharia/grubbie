@@ -1,4 +1,8 @@
-<?php include('../includes/header.php'); ?>
+<?php
+  $title = "Your Profile";
+?>
+<?php include('../includes/header.php');?>
+
 
 <div class="profile-view">
   <form action = "view_edit.php">

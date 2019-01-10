@@ -3,17 +3,17 @@
 <div class="meal-view">
   <div class="row">
       <div class="col-1"></div>
-      <button class="btn-circ col-lg-3 col-md-4 col-sm-3 col-10">
+      <a class="btn-circ col-lg-3 col-md-4 col-sm-3 col-10 text-center" href="http://localhost/grubbie/menu/view.php">
         <i class="fas fa-caret-left"></i>
         &nbsp;
         Back to Menu
-      </button>
+      </a>
       <div class="col-lg-5 col-md-3 col-sm-4 col-5"></div>
-      <button class="btn-circ col-lg-2 col-md-3 col-sm-3 col-10 pull-right lg">
+      <a class="btn-circ col-lg-2 col-md-3 col-sm-3 col-10 pull-right text-center lg">
         <i class="fas fa-user-check"></i>
         &nbsp;
-        Refer
-      </button>
+        Assign
+      </a>
   </div>
   <div class="clearfix"><br/></div>
   <div class="clearfix"><br/></div>
@@ -36,12 +36,14 @@
     <div class="col-lg-7 col-12">
       <div class="data">
       <div class="row">
-        <div class="col-7"></div>
-        <button class="btn-circ col-sm-3 col-4 xs text-right">
-          <i class="fas fa-user-check"></i>
-          &nbsp;
-          Refer
-        </button>
+        <div class="col-sm-7 col-3"></div>
+        <div class="col-sm-5 col-8 xs">
+          <a class="btn-circ">
+            <i class="fas fa-user-check"></i>
+            &nbsp;
+            Assign
+          </a>
+        </div>
       </div>
         <div>
           <h3>Description</h3>

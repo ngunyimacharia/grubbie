@@ -21,4 +21,8 @@
     </a>
     <?php include("nav_user.php"); ?>
   </header>
+  <!-- <div class="header-container">
+    <h1><?= $title; ?></h1>
+  </div> -->
+
   <div id="content-container">

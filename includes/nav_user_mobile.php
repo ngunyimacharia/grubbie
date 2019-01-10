@@ -7,7 +7,13 @@
       </a>
     </li>
     <li>
-      <a href="http://localhost/grubbie/menu/view.php">
+      <a href="http://localhost/grubbie/rating/rate.php">
+        <i class="far fa-thumbs-up" title="Rate"></i>
+        <span>Rate</span>
+      </a>
+    </li>
+    <li>
+      <a href="http://localhost/grubbie/menu/mobile.php">
         <i class="fas fa-utensils" title="Meals"></i>
         <span>Meals</span>
       </a>
