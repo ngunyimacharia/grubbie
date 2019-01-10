@@ -1,13 +1,40 @@
+
 # Grubbie
 
+[Meltwater Entreprenuerial School of Technology](meltwater.org), MEST, and MEST Incubator provide training, seed investment and mentorship for the next generation of globally successful African software entrepreneurs.
 
-### Welcome to Grubbie - Proposed MEST Kitchen Application
+The MEST Operations team proposed the development of an application that would achieve the following goals:
 
+ - List item
+ - Reduce wastage
+ - Plan weekly purchases effectively
+ - Track inventory
+ - Measure the satisfaction level of customers, and;
+ - Know the potential headcount per meal
 
+This repository holds the implementation of the approved Grubbie team design:
 
-### Phase 1: Implementation of UI
+ - [Kitchen Staff design](https://www.figma.com/file/FhCmZJbatPQ1s3qLjDwXfsqL/Kitchen?node-id=0:1)
+ - [User design](https://www.figma.com/file/HmYfs4SgIDvfwtuVjnqRx2FS/Grubbie?node-id=0:1)
 
-#### Proposed technology stack
+## Installation
+
+To run this project, install [XAMPP](https://www.apachefriends.org/index.html), [LAMP](https://howtoubuntu.org/how-to-install-lamp-on-ubuntu) or [WAMP](http://www.wampserver.com/en/) on your computer. Clone this repository into a folder named "Grubbie". This can be simply done by running the following command:
+
+    git clone https://github.com/ngunyimacharia/grubbie.git
+
+Ensure that the Apache server is running either by starting XAMP, LAMP or WAMP.
+
+## Usage
+To run the project, open the url: http://localhost/grubbie on your browser of choice
+
+NB: Due to internal links, it is highly recommended to maintain the link above.
+
+![enter image description here](https://lh3.googleusercontent.com/0Ino7XGbRMAXAGqKKGoTul2wF9csyVxRLz-2ShQk857dMu61AJkfbgSdAgOM5QSRGd2fU_rOFPDx "Grubbie Landing Page")
+
+## Contributing
+
+#### Technology stack
 HTML (Markup Language)
 - https://www.w3schools.com/html/default.asp
 
@@ -66,3 +93,17 @@ Templating will be done using php include() function. To include a HTML page int
 
 The above will include the file in the path to the page.
 That simple :-)
+
+## Credits
+
+
+
+**Amanda Williams:** UI / UX design, data structures , backend
+**Daniel Kayode:** Product Manager
+**Esther Mwangi:** Frond End Mockup, Data
+**Kelvin Macharia:** Backend Development
+**Solomon Igori:** Front-end / Back-end
+
+## License
+
+This project is covered under the MIT License.
