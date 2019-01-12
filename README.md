@@ -1,6 +1,8 @@
 
 # Grubbie
 
+> For Meteor implemetation of this project, please refer to: [https://github.com/ngunyimacharia/grubbie-meteor](https://github.com/ngunyimacharia/grubbie-meteor)
+
 [Meltwater Entreprenuerial School of Technology](meltwater.org), MEST, and MEST Incubator provide training, seed investment and mentorship for the next generation of globally successful African software entrepreneurs.
 
 The MEST Operations team proposed the development of an application that would achieve the following goals:
@@ -47,6 +49,24 @@ Javascript (Animations)
 
 PHP (Templating)
 - https://www.w3schools.com/php/default.asp
+
+
+#### Packages used
+
+Flow Router (Routing)
+- https://atmospherejs.com/kadira/flow-router
+- https://atmospherejs.com/kadira/blaze-layout
+
+Bootstrap Grid (Grid system)
+- https://getbootstrap.com/docs/4.1/layout/grid/
+
+Font Awesome (Icon Pack)
+- https://fontawesome.bootstrapcheatsheets.com/
+
+Chart.js (Charting)
+- http://chartjs.org/
+
+
 
 #### Folder structure
 ||=====================
